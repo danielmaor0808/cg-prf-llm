@@ -40,7 +40,6 @@ Prompting-Future-of-Search/
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # This file
 ├── .env.example                 # Template for environment variables
-└── ...
 ```
 
 ## Installation
