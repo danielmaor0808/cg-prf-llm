@@ -1,0 +1,9 @@
+pandas==1.4.2
+numpy==1.26.4
+nltk==3.9.1
+rank_bm25==0.2.2
+rank_bm25==0.2.2
+openai==1.55.3
+tiktoken==0.8.0
+python-dotenv==1.0.1
+tqdm==4.66.1
