@@ -30,16 +30,17 @@ This project explores a **Corpus-Guided Generative Pseudo-Relevance Feedback (CG
 
 ```
 Prompting-Future-of-Search/
-├── data_loading.py              # Functions to load queries, qrels, corpus, top-100 docs
+├── data.py                      # Functions to load queries, qrels, corpus, top-100 docs
 ├── evaluation.py                # Evaluator class to compute NDCG, MAP, etc.
-├── generation.py                # (Optional) Logic for GPT-4 document generation
+├── generation.py                # Logic for GPT-4 document generation
+├── retrieval.py                 # retrieval methods, logic and implementation
 ├── run.py                       # Main script to orchestrate training and testing
 ├── config.py                    # Loads environment variables (API_KEY, file paths, etc.)
 ├── utils.py                     # Helper functions: logging, text preprocessing, etc.
 ├── parameter_sweep.py           # (Optional) Parameter grid for BM25 re-ranking, expansions
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # This file
-├── .env.example                 # Template for environment variables
+└── .env.example                 # Template for environment variables
 ```
 
 ## Installation
