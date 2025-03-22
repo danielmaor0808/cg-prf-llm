@@ -298,48 +298,48 @@ We compare CG-PRF against the following baselines from the original GRF paper:
 ---
 ## References
 
-[1] Mackie, Iain. *Generative relevance feedback with large language models.* Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2023.
+- Mackie, Iain. *Generative relevance feedback with large language models.* Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2023.
 
-[2] Bubeck, S. *Sparks of artificial general intelligence: Early experiments with GPT-4*, 2023.
+- Bubeck, S. *Sparks of artificial general intelligence: Early experiments with GPT-4*, 2023.
 
-[3] Manning, C. D., Raghavan, P., & Schütze, H. *Introduction to Information Retrieval.* Cambridge University Press, 2008.
+- Manning, C. D., Raghavan, P., & Schütze, H. *Introduction to Information Retrieval.* Cambridge University Press, 2008.
 
-[4] Rocchio, J. J. *Relevance feedback in information retrieval*, 1971.
+- Rocchio, J. J. *Relevance feedback in information retrieval*, 1971.
 
-[5] Zhai, C., & Lafferty, J. *Model-based feedback in the language modeling approach to information retrieval.* Proceedings of the 10th International Conference on Information and Knowledge Management, 2001.
+- Zhai, C., & Lafferty, J. *Model-based feedback in the language modeling approach to information retrieval.* Proceedings of the 10th International Conference on Information and Knowledge Management, 2001.
 
-[6] Lavrenko, V., & Croft, W. B. *Relevance models for topic detection and tracking.* Proceedings of the Human Language Technology Conference (HLT), 2002.
+- Lavrenko, V., & Croft, W. B. *Relevance models for topic detection and tracking.* Proceedings of the Human Language Technology Conference (HLT), 2002.
 
-[7] Khattab, O., & Zaharia, M. *ColBERT: Efficient and effective passage search via contextualized late interaction over BERT.* Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval, 2020.
+- Khattab, O., & Zaharia, M. *ColBERT: Efficient and effective passage search via contextualized late interaction over BERT.* Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval, 2020.
 
-[8] Xiong, C., et al. *Improving query representations for dense retrieval with pseudo relevance feedback.* Proceedings of the 30th ACM International Conference on Information & Knowledge Management, 2021.
+- Xiong, C., et al. *Improving query representations for dense retrieval with pseudo relevance feedback.* Proceedings of the 30th ACM International Conference on Information & Knowledge Management, 2021.
 
-[9] Formal, T., et al. *A white box analysis of ColBERT.* Advances in Information Retrieval: 43rd European Conference on IR Research, ECIR 2021.
+- Formal, T., et al. *A white box analysis of ColBERT.* Advances in Information Retrieval: 43rd European Conference on IR Research, ECIR 2021.
 
-[10] Bonifacio, L., et al. *InPars: Data augmentation for information retrieval using large language models*, 2022.
+- Bonifacio, L., et al. *InPars: Data augmentation for information retrieval using large language models*, 2022.
 
-[11] Vakulenko, S., et al. *Question rewriting for conversational question answering.* Proceedings of the 14th ACM International Conference on Web Search and Data Mining, 2021.
+- Vakulenko, S., et al. *Question rewriting for conversational question answering.* Proceedings of the 14th ACM International Conference on Web Search and Data Mining, 2021.
 
-[12] Rahaman, M. *From ChatGPT-3 to GPT-4: A significant advancement in AI-driven NLP tools.* Journal of Engineering and Emerging Technologies, 2023.
+- Rahaman, M. *From ChatGPT-3 to GPT-4: A significant advancement in AI-driven NLP tools.* Journal of Engineering and Emerging Technologies, 2023.
 
-[13] Lavrenko, V., & Croft, W. B. *Relevance-Based Language Models.* Center for Intelligent Information Retrieval, 2001.
+- Lavrenko, V., & Croft, W. B. *Relevance-Based Language Models.* Center for Intelligent Information Retrieval, 2001.
 
-[14] Craswell, N., et al. *Overview of the TREC 2020 Deep Learning Track.* In Text REtrieval Conference (TREC), 2020.
+- Craswell, N., et al. *Overview of the TREC 2020 Deep Learning Track.* In Text REtrieval Conference (TREC), 2020.
 
-[15] Nguyen, T., et al. *MS MARCO: A human-generated machine reading comprehension dataset*, 2016.
+- Nguyen, T., et al. *MS MARCO: A human-generated machine reading comprehension dataset*, 2016.
 
-[16] Mackie, I., et al. *How deep is your learning: The DL-HARD annotated deep learning dataset.* Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval.
+- Mackie, I., et al. *How deep is your learning: The DL-HARD annotated deep learning dataset.* Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval.
 
-[17] OpenAI. *GPT-4 API documentation*. Available: [https://platform.openai.com/docs/](https://platform.openai.com/docs/) (Accessed: Mar. 10, 2025).
+- OpenAI. *GPT-4 API documentation.* Available: <https://platform.openai.com/docs/> (Accessed: Mar. 10, 2025).
 
-[18] Robertson, S. E., & Walker, S. *Some simple effective approximations to the 2-Poisson model for probabilistic weighted retrieval.* SIGIR 1994.
+- Robertson, S. E., & Walker, S. *Some simple effective approximations to the 2-Poisson model for probabilistic weighted retrieval.* SIGIR 1994.
 
-[19] Jaleel, N. A., et al. *UMass at TREC 2004.* Computer Science Department Faculty Publication Series, 2004.
+- Jaleel, N. A., et al. *UMass at TREC 2004.* Computer Science Department Faculty Publication Series, 2004.
 
-[20] Shahrzad, N., et al. *CEQE: Contextualized embeddings for query expansion.* Advances in Information Retrieval, ECIR 2021.
+- Shahrzad, N., et al. *CEQE: Contextualized embeddings for query expansion.* Advances in Information Retrieval, ECIR 2021.
 
-[21] Khattab, O., & Zaharia, M. *ColBERT: Efficient and effective passage retrieval.* In SIGIR, 2020.
+- Khattab, O., & Zaharia, M. *ColBERT: Efficient and effective passage retrieval.* In SIGIR, 2020.
 
-[22] Wang, X., Macdonald, C., Tonellotto, N., & Ounis, I. *ColBERT-PRF: Semantic pseudo-relevance feedback for dense passage and document retrieval.* ACM Transactions on the Web, 2022.
+- Wang, X., Macdonald, C., Tonellotto, N., & Ounis, I. *ColBERT-PRF: Semantic pseudo-relevance feedback for dense passage and document retrieval.* ACM Transactions on the Web, 2022.
 
-[23] Macdonald, C., Tonellotto, N., MacAvaney, S., & Ounis, I. *PyTerrier: Declarative experimentation in Python from BM25 to dense retrieval.* In ACM International Conference on Information & Knowledge Management, 2021.
+- Macdonald, C., Tonellotto, N., MacAvaney, S., & Ounis, I. *PyTerrier: Declarative experimentation in Python from BM25 to dense retrieval.* In ACM International Conference on Information & Knowledge Management, 2021.
