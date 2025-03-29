@@ -296,6 +296,34 @@ We compare CG-PRF against the following baselines from the original GRF paper:
 > 📝 *This comparison section has been taken directly from the GRF paper for accuracy and clarity. No modifications were made.*
 
 ---
+## Future Work
+
+We're excited about several promising directions to build on our current work with **CG-PRF**:
+
+### 📊 Fairer Comparisons with Related Methods  
+One next step is to directly compare **CG-PRF** with other generative relevance feedback approaches, especially **GRF** by Mackie et al. (2023). While GRF was tested by re-ranking the top **1000** initial results, CG-PRF was evaluated on only the top **100**, making direct comparison tricky. Despite this, CG-PRF has shown strong performance even with a smaller candidate set. We're planning to run both methods under a **unified experimental setup** — same retrieval pool, same evaluation — so we can assess their effectiveness on a level playing field.
+
+### 🌍 Testing Across Diverse Corpora  
+Another key direction is to apply CG-PRF to a **broader range of corpora** with varying styles and domains. Since the method is corpus-aware, we believe it can naturally adapt to domain-specific language and structure:
+
+- In **technical documentation**, CG-PRF might generate expansions with more *precise terminology*.
+- In **forums or social media**, it could include *informal language* or *community-specific slang*.
+
+By evaluating CG-PRF on **technical**, **formal**, and **informal** datasets, we aim to test its **adaptability and generalization** across different types of information sources.
+
+### ⚙️ Exploring Generation Parameters  
+So far, we’ve fixed many generation settings (e.g. GPT-4 decoding temperature, output length) for consistency. However, each of these choices may impact the **quality, relevance, and diversity** of generated feedback. Due to compute constraints, we haven’t yet explored this space in detail — but future experiments will systematically vary these parameters to uncover **optimal settings** for better retrieval performance.
+
+### 🧪 Real-World Applications  
+Finally, we’re interested in bringing CG-PRF closer to **real-world use cases**, such as document search in **user-generated content platforms** (e.g., forums, messaging systems). These environments introduce unique challenges:
+
+- **Informal or context-specific queries**  
+- **Varying structure and tone**  
+- **Evolving language use**
+
+We believe CG-PRF’s **corpus-aware generation** makes it well-suited for these settings, and we’re excited to test its **robustness and adaptability** beyond static benchmarks.
+
+---
 ## References
 
 - Mackie, Iain. *Generative relevance feedback with large language models.* Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2023.
